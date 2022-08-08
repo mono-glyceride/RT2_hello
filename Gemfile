@@ -14,6 +14,7 @@ gem 'bootsnap',   '1.10.3', require: false
 gem 'psych', '~> 3.1'
 gem 'net-smtp'
 gem 'net-pop'
+gem 'net-imap'
 
 group :development, :test do
   gem 'sqlite3', '1.4.4'
