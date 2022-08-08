@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+ruby '3.1.2'
+
 gem 'rails',      '6.0.4'
 gem 'puma'
 gem 'sass-rails', '5.1.0'
